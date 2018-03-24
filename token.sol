@@ -6,9 +6,10 @@ contract ForkshopToken {
     
     string public constant symbol = "fst";
     
-    uint32 public constant decimals = 18;
+    uint32 public constant decimals = 2;
     
-    uint public totalSupply = 0;
+    uint public totalSupply = 1000;
+    
     
     mapping (address => uint) balances;
     
@@ -34,6 +35,8 @@ contract ForkshopToken {
     function allowance(address _owner, address _spender) public constant returns (uint remaining) {
         return 0;
     }
+    
+    
     
     event Transfer(address indexed _from, address indexed _to, uint _value);
     
