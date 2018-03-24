@@ -1,10 +1,10 @@
 pragma solidity ^0.4.18;
 
-contract PorjomiToken {
+contract ForkshopToken {
     
-    string public constant name = "Simple Coin Token";
+    string public constant name = "Forkshop Token";
     
-    string public constant symbol = "SCT";
+    string public constant symbol = "fst";
     
     uint32 public constant decimals = 18;
     
