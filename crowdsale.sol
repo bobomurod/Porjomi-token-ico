@@ -8,5 +8,6 @@ contract Crowdsale() {
     function() {
         investor = msg.sender;
         invesment = msg.value;
-    }   
+    }
+       
 }
